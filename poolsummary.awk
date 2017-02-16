@@ -108,7 +108,7 @@ function summary() {
 #/^ +Free.* Size/ { print }
 #/^ +Physical.*/ { print }
 /Size.*:/ {
-	if (section=1) { print }
+	if (section==1) { print }
 }
 /Tier Management/ { print }
 /Monitoring Mode/ { print }

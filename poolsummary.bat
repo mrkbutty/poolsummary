@@ -1,4 +1,4 @@
 @echo off
 set wpath=%~dp0
 set fname=%~dpn0
-%wpath%gawk -f %fname%.awk %1 %2 %3 %4 %5 %6 %7 %8 %9
+gawk -f %fname%.awk %1 %2 %3 %4 %5 %6 %7 %8 %9
